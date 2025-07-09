@@ -43,7 +43,7 @@ class StudentDataClass
     // Read the file contents into an array
     
     echo "<h3>Student List</h3>";
-    echo "<table border='1' cellpadding='5' cellspacing='0'>";
+    echo "<table border='1' cellpadding='5' cellspacing='0' style=>";
     echo "<tr>
     <th>ID</th>
     <th>Name</th>

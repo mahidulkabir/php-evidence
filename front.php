@@ -10,13 +10,13 @@ if (isset($_POST["btnSubmit"])) {
     $phone = $_POST["txtPhone"];
     $email = $_POST["txtEmail"];
 
-    if (preg_match("/^[0-9+]{11,14}$/", $phone)) {
+    if (preg_match("/^(?:\+88|88)?01[3-9]\d{8}$/", $phone) && preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/",$email))  {
 
         $student = new StudentDataClass($id, $name, $course, $phone, $email);
         $student->save();
         echo "Success!";
     } else {
-        echo "Invalid Phone";
+        echo "Invalid Phone or Gmail";
     }
 }
 ?>
@@ -26,10 +26,10 @@ if (isset($_POST["btnSubmit"])) {
 
 <head>
     <meta charset="utf-8">
-    <title>Untitled Document</title>
+    <title>Student Form </title>
 </head>
 
-<body>
+<body style="text-align: center;">
 
     <form action="#" method="post">
         <div>
