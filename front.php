@@ -8,10 +8,11 @@ if (isset($_POST["btnSubmit"])) {
     $name = $_POST["txtName"];
     $course = $_POST["txtCourse"];
     $phone = $_POST["txtPhone"];
+    $email = $_POST["txtEmail"];
 
     if (preg_match("/^[0-9+]{11,14}$/", $phone)) {
 
-        $student = new StudentDataClass($id, $name, $course, $phone);
+        $student = new StudentDataClass($id, $name, $course, $phone, $email);
         $student->save();
         echo "Success!";
     } else {
@@ -49,6 +50,10 @@ if (isset($_POST["btnSubmit"])) {
         <div>
             Phone<br />
             <input type="text" name="txtPhone" />
+        </div>
+        <div>
+            Email<br />
+            <input type="text" name="txtEmail" />
         </div>
 
         <div>

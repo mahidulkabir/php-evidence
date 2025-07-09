@@ -1,8 +1,5 @@
-ID     | Name       | Course     | Phone
+ID     | Name       | Course     | Phone     | Email
 ---------------------------------------------
-2424   | yu         | fff        | 01706513542
-2424,yu,fff,01706513542
-2424,yu,fff,01706513542
-2424,yu,fff,01706513542
-2424,yu,fff,01706513542
-2424   | yu         | fff        | 01706513542
+1287983 | Hares Islam | Java       | 017181911401 | hared@islam.com
+1288235 | Mahidul Kabir | WDPF       | 01797147515 | mahidul@ahidul.com
+1288825 | Gitanul Jibanu | Virus      | 01274456542 | gitanu@bitanu.com
