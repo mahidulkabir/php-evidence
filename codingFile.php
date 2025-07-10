@@ -42,8 +42,8 @@ class StudentDataClass
   {
     // Read the file contents into an array
     
-    echo "<h3>Student List</h3>";
-    echo "<table border='1' cellpadding='5' cellspacing='0' style=>";
+    echo "<div class='overflow-x-auto rounded-box border border-black bg-base-100 w-1/2 mx-auto my-10 bg-[#320A6B] text-base-300'>";
+    echo "<table border='1' cellpadding='5' cellspacing='0' class='table'";
     echo "<tr>
     <th>ID</th>
     <th>Name</th>
@@ -77,6 +77,7 @@ class StudentDataClass
     }
 
     echo "</table>";
+    echo"</div>";
   }
 
 

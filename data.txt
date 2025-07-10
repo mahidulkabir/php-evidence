@@ -1,8 +1,3 @@
-ID     | Name       | Course     | Phone     | Email
----------------------------------------------
-1287983 | Hares Islam | Java       | 017181911401 | hared@islam.com
-1288235 | Mahidul Kabir | WDPF       | 01797147515 | mahidul@ahidul.com
-1288825 | Gitanul Jibanu | Virus      | 01274456542 | gitanu@bitanu.com
-1288125 | Osman Goni | Java       | 01797147515 | osman2344@gmail.com
-1288235 | Mahidul Kabir | Virus      | 8801715052430 | gitanu@bitanu.com
-1288235 | Mahidul Kabir | Virus      | 8801715052430 | gitanu@bitanu.com
+
+2424   | Mahidul Kabir | Java       | 01797147515 | mahidul@ahidul.com
+1288825 | Mahidul Kabir | Virus      | 01706513542 | mahidulkabir8@gmail.com
