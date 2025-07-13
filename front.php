@@ -69,13 +69,16 @@
         $phone = $_POST["txtPhone"];
         $email = $_POST["txtEmail"];
 
-        if (preg_match("/^(?:\+88|88)?01[3-9]\d{8}$/", $phone) && preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $email)) {
+        if (preg_match("/^(?:\+88|88)?01[3-9]\d{8}$/", $phone) && preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $email) && preg_match("/^\d{5,}$/",$id)) {
 
             $student = new StudentDataClass($id, $name, $course, $phone, $email);
             $student->save();
-            echo "Success!";
+            
         } else {
-           echo"Invalid Format";
+          echo "<script>
+      alert('Try Again With Correct Format');
+    
+      </script>";
         }
     }
     ?>
