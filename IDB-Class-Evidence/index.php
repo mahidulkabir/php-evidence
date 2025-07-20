@@ -7,6 +7,7 @@
     <title>LogIn :: Landing Page</title>
 </head>
 <body>
+
     <div class="flex h-screen bg-indigo-700">
 <div class="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">   
       <header>
