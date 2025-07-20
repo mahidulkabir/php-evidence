@@ -1,3 +1,0 @@
-ID     | Name       | Course     | Phone     | Email | ImageFile 
----------------------------------------------
-1288825 | Osman Goni | Virus      | 01706513542 | mahidulkabir8@gmail.com | shubham-dhage-t0Bv0OBQuTg-unsplash.jpg
